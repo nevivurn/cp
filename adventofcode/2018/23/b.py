@@ -38,6 +38,6 @@ while radius:
             n_points[n_point] = cnt
 
     max_cnt = max(n_points.values())
-    points = map(tuple, (pt for pt,cnt in n_points.items() if cnt == max_cnt))
+    points = (pt for pt,cnt in n_points.items() if cnt == max_cnt)
 
 print(min(map(lambda p: dist((0,0,0), p), points)))
