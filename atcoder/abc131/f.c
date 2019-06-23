@@ -47,7 +47,7 @@ int main(void) {
 		cnt += cntx * cnty;
 	}
 
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < 100000; i++) {
 		free(lstx[i].arr);
 		free(lsty[i].arr);
 	}
