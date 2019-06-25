@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAPSIZE 1048576
-
 int cmpmin(int a, int b) {
 	return a-b;
 }
